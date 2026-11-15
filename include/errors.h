@@ -1,5 +1,5 @@
 #pragma once
-
+#include <string>
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2023 profi200
 
@@ -18,3 +18,5 @@ enum
 	ERR_EXCEPTION     =  9,
 	ERR_UNK_EXCEPTION = 10
 };
+
+static std::string verboseErrorMessage(int error_code);
